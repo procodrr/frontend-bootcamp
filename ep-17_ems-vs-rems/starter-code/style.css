@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+section {
+    background-color: blueviolet;
+    width: 50vw;
+    padding: 10vw;
+    margin: 10vw;
+    border: 1vw solid green;
+    /* font-size: 4vw; */
+    /* width: 400px;
+    padding: 10%;
+    font-size: 16px; */
+    /* box-sizing: border-box; */
+}
+
+.box {
+    background-color: chartreuse;
+    width: 50%;
+    padding: 24px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,28 @@
+:root {
+    font-size: 100px;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    background-color: blueviolet;
+    width: 50vw;
+    padding: 10vw;
+    margin: 10vw;
+    border: 1vw solid green;
+    font-size: 5rem;
+    /* width: 400px;
+    padding: 10%;
+    font-size: 16px; */
+    /* box-sizing: border-box; */
+}
+
+.box {
+    background-color: chartreuse;
+    /* box-sizing: border-box; */
+    width: 1em;
+    font-size: 2rem;
+    padding: 0.5em;
+}
