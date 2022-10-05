@@ -1,0 +1,64 @@
+li {
+    font-weight: 700;
+}
+
+.html {
+    color: #DD4B25;
+}
+
+.css {
+    color: #254BDD;
+}
+
+.js {
+    color: #EFD81D;
+}
+
+.react {
+    color: #5ED3F3;
+}
+
+.tailwind {
+    color: #0EA5E9;
+}
+
+#html {
+    font-size: 32px;
+}
+
+#css {
+    font-size: 32px;
+    color: hotpink;
+}
+
+#js {
+    font-size: 32px;
+}
+
+#react {
+    font-size: 32px;
+}
+
+#tailwind {
+    font-size: 32px;
+}
+
+[class] {
+    /* background-color: green; */
+}
+
+[anurag="coder"] {
+    background-color: cadetblue;
+}
+
+.web p {
+    background-color: green;
+}
+
+h1:hover {
+    color: blue;
+}
+
+.my-intro:hover {
+    color: orange;
+}
