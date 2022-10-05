@@ -1,0 +1,24 @@
+body {
+    height: 600px;
+}
+
+.parent {
+    /* width: 800px; */
+    height: 50%;
+    background-color: crimson;
+}
+
+.one {
+    background-color: aquamarine;
+    width: 50%;
+    height: 50%;
+    /* word-break: break-all; */
+}
+
+.one-child {
+    width: 50%;
+}
+
+.two {
+    background-color: blueviolet;
+}
