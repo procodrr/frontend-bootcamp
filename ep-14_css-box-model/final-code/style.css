@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    background-color: aquamarine;
+}
+
+.one {
+    background-color: aquamarine;
+    color: darkblue;
+    width: 300px;
+    padding: 25px;
+    margin: 40px;
+    border: 4px solid rgb(234, 98, 8);
+    border-radius: 10px;
+    outline: 55px solid green;
+    /* word-break: break-all; */
+}
+
+.two {
+    background-color: #2fc1e0;
+    width: 500px;
+    height: 500px;
+    padding: 25px;
+    margin: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 8px solid hotpink;
+    outline: 55px solid #af134c;
+}
+
+img {
+    width: 125%;
+    margin-top: -110px;
+    margin-left: -35px;
+}
