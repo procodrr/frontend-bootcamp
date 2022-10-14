@@ -17,5 +17,4 @@ body {
 
 .parent a {
     border: 4px solid yellowgreen;
-    flex-shrink: 0;
 }
