@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.parent {
+    padding: 10px;
+    border: 4px solid indianred;
+}
+
+.parent span {
+    border: 4px solid cadetblue;
+}
+
+.parent p {
+    border: 4px solid darkkhaki;
+}
+
+.parent a {
+    border: 4px solid yellowgreen;
+    flex-shrink: 0;
+}
