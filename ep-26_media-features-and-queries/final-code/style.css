@@ -1,0 +1,54 @@
+.square {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border: 25px solid blue;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+}
+
+
+@media (min-width: 800px) {
+    .square  {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+}
+
+/* 
+@media print and (min-width: 800px) {
+    .square  {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+} */
+/* 
+@media (min-width: 700px) {
+    .square  {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+} */
+
+/* 
+@media (max-width: 700px) {
+    .square  {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+} */
+
+/* @media (width <= 700px) {
+    .square  {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+} */
+
+
+/* @media (500px <= width <= 700px) {
+    .square  {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+} */
