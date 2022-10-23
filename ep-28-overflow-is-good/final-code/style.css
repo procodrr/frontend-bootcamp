@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    /* overflow: hidden; */
+}
+
+.box {
+    font-size: 4rem;
+    border: 4px solid;
+    /* max-width: 400px; */
+    width: 189.5px;
+    /* overflow: scroll; */
+}
+
+@media(width < 400px) {
+    .box {
+        font-size: 2em;
+    }
+}
