@@ -1,0 +1,24 @@
+.container {
+    background-color: cadetblue;
+    display: flow-root;
+}
+
+img {
+    width: 400px;
+    float: left;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    /* position: absolute; */
+}
+
+.first-paragraph {
+    /* background-color: burlywood; */
+    /* clear: both; */
+}
+
+/* a {
+    width: 200px;
+    float: left;
+    background-color: cornflowerblue;
+    margin-right: 0.75rem;
+} */
