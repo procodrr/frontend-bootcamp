@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 60vh;
+  background-color: lightblue;
+  display: grid;
+  /* grid: auto-flow / 1fr 1fr 1fr; */
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  /* grid-template-rows: repeat(6, 100px); */
+
+  /* grid-template-columns: repeat(5, minmax(80px, 140px)); */
+
+  /* grid-template: repeat(6, 100px) / repeat(4, 100px); */
+  /* grid-auto-flow: column; */
+  /* grid-auto-columns: 100px;
+  grid-auto-rows: 100px; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* justify-items: center; */
+}
+
+.box {
+  color: white;
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+.box-1 {
+  background-color: green;
+  /* grid-column-start: 5; */
+  /* grid-column-end: 5; */
+  /* grid-column: 3 / 5;
+  grid-row: 2 / 4; */
+}
+
+.box-2 {
+  background-color: blueviolet;
+}
+
+.box-3 {
+  background-color: blue;
+}
+
+.box-4 {
+  background-color: brown;
+}
+
+.box-5 {
+  background-color: coral;
+ 
+}
+
+.box-6 {
+  background-color: darkblue;
+  /* align-self: stretch;
+  justify-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* margin-inline: auto;
+  margin-block: auto; */
+}
+
+.box-7 {
+  background-color: darkred;
+}
+
+.box-8 {
+  background-color: darkslategray;
+}
+
+.box-9 {
+  background-color: gray;
+}
+
+.box-10 {
+  background-color: navy;
+}

@@ -1,0 +1,23 @@
+/* Required to Know */
+.container {
+  grid-template-rows: none;
+  grid-template-columns: none;
+  column-gap: normal;
+  row-gap: normal;
+}
+
+.children {
+  grid-column-start: auto;
+  grid-column-end: auto;
+  grid-row-start: auto;
+  grid-row-end: auto;
+}
+
+
+/* Optional to Know */
+.container {
+  grid-template-areas: none;
+  grid-auto-rows: auto;
+  grid-auto-columns: auto;
+  grid-auto-flow: row;
+}
