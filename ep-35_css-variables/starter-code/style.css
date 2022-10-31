@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #2ea44f;
+}
+
+a {
+  color: #ea4c89;
+  text-decoration: none;
+  border: 2px solid #ea4c89;
+  padding: 0.5em 1em;
+  font-size: 14px;
+  display: inline-block;
+  height: 32px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+strong {
+  color: #ea4c89;
+}
+
+span {
+    color: #ea4c89;
+}
+
+code {
+    color: #2ea44f;
+}
+
+button {
+  border: none;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+  height: 32px;
+}
+
+.previous-button {
+  background-color: #ea4c89;
+}
+
+.next-button {
+  background-color: #2ea44f;
+}

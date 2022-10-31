@@ -1,0 +1,71 @@
+:root {
+    --primary-brand-color: #ea4c89;
+    --secondary-brand-color: #2ea44f;
+  /* --primary-brand-color: #fa6400;
+  --secondary-brand-color: #405cf5; */
+  --rounded: 24px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* .first-container {
+    --primary-brand-color: #ea4c89;
+    --secondary-brand-color: #2ea44f;
+    --rounded: 4px; 
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  color: var(--secondary-brand-color);
+}
+
+a {
+  color: var(--primary-brand-color);
+  text-decoration: none;
+  border: 2px solid var(--primary-brand-color);
+  padding: 0.5em 1em;
+  font-size: 14px;
+  display: inline-block;
+  height: 32px;
+  vertical-align: middle;
+  border-radius: var(--rounded);
+}
+
+strong {
+  color: var(--primary-brand-color);
+}
+
+span {
+  color: var(--primary-brand-color);
+}
+
+code {
+  color: var(--secondary-brand-color);
+}
+
+button {
+  border: none;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: var(--rounded);
+  font-size: 14px;
+  font-family: inherit;
+  height: 32px;
+}
+
+.previous-button {
+  background-color: var(--primary-brand-color);
+}
+
+.next-button {
+  background-color: var(--secondary-brand-color);
+}
+
+h4 {
+  color: var(--secondary-brand-color);
+}
